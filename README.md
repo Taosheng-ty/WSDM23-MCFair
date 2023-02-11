@@ -1,5 +1,5 @@
-# WSDM22-MCFair
-WSDM 2022 paper. Marginal-Certainty-aware Fair Ranking Algorithm. 
+# WSDM23-MCFair
+WSDM 2023 paper. Marginal-Certainty-aware Fair Ranking Algorithm. 
 The paper could be found at https://arxiv.org/pdf/2212.09031.pdf
 
 
