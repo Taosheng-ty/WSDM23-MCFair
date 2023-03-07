@@ -27,11 +27,19 @@ Here slurm_python is a tool to submit multiple jobs and it will be automatically
 
 if you use MCFair in your research, please use the following BibTex entry.
 
-    @article{yang2022marginal,
-    title={Marginal-Certainty-aware Fair Ranking Algorithm},
-    author={Yang, Tao and Xu, Zhichao and Wang, Zhenduo and Tran, Anh and Ai, Qingyao},
-    journal={arXiv preprint arXiv:2212.09031},
-    year={2022}
+   @inproceedings{10.1145/3539597.3570474,
+    author = {Yang, Tao and Xu, Zhichao and Wang, Zhenduo and Tran, Anh and Ai, Qingyao},
+    title = {Marginal-Certainty-Aware Fair Ranking Algorithm},
+    year = {2023},
+    isbn = {9781450394079},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3539597.3570474},
+    doi = {10.1145/3539597.3570474},
+    booktitle = {Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining},
+    pages = {24–32},
+    numpages = {9},
+    series = {WSDM '23}
     }
 
 
