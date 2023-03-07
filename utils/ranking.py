@@ -622,6 +622,7 @@ def get_ranking(qRel,qExpVector,fairness_strategy,fairness_tradeoff_param,explor
     elif fairness_strategy == "ILP":
       ranking=ILP(positionBias,qRel,qExpVector,queryFreq,rankListLength,fairness_tradeoff_param)
     elif fairness_strategy == "LP":
+      qid=kwargs["qid"]
       positionBiasAllItem=np.zeros(num_item)
       positionBiasAllItem[:rankListLength]=positionBias
       qidDecomps=dataSplit.decomps[qid]
